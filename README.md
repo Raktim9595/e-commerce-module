@@ -44,6 +44,14 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Swagger
+
+Swagger is a tool widely used for api documentation worldwide for many large scale projects. In order to view the swagger in  this module you can follow these steps.
+1. Firs run the script `npm run start`
+2. Go to url localhost:8080/api in your browser.
+3. Start navigating
+
+
 ## Run tests
 
 ```bash
