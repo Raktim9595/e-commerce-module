@@ -51,6 +51,12 @@ Swagger is a tool widely used for api documentation worldwide for many large sca
 2. Go to url localhost:8080/api in your browser.
 3. Start navigating
 
+## Swagger Image of API
+![Sample API Image](./swagger-api-view.png)
+
+## Db Image
+![Db Image Of Orders](./db-image.png)
+
 
 ## Run tests
 
@@ -82,7 +88,17 @@ Here we aren't deploying the server so it's tricky as stripe can't request the s
 Follow the following list of commands to get secret for stripe webhook which can target our localhost,
 1. Install and setup stripe CLI.
 2. Login to the desired stripe account
-3. `stripe listen --forward-to localhost:8080/payment/webhook` # command to target our endpoint by the webhook and generate the secret key for our localhost
+3. `stripe listen --forward-to localhost:8080/payment/webhook` # command to target our endpoint by the webhook and generate the secret key for our localhost. After you got the secrets include in the env variable as `STRIPE_WEBHOOK_SECRET`
+
+![Stripe webhook secret](./stripe-webhook.png)
+
+## Running Steps
+1. Install dependencies using `npm install`.
+2. Setup all the above mentioned env variables.
+3. For MONGODB_URI go to website [MongoDb Atlas](https://www.mongodb.com/products/tools/compass) and signin and the create a new free tier cluster, there you get the connection string and use that string in mongodb variable.
+4. For STRIPE_SECRET_KEY and STRIPE_PUBLISHABLE_KEY go to stripe website create an account and on the bottom left go to developer menu and then grab those secrets and put on env file.
+5. For the STRIPE_WEBHOOK_SECRET follow the above steps, since it changes on each run so make sure to change it on every run.
+6. `npm run start` at the end after all above steps the program is ready to go, navigate to `http://localhost:8080/api` and see the results. 
 
 Note: the endpoint name should be same while genrating secret, eg: our secret endpoint for stripe webhook is payment/webhook, so our server should also has payment/webhook as a listener which catches the webhook event
 

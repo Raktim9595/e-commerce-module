@@ -1,8 +1,6 @@
-// src/module/product/product-seed.service.ts
 import { Injectable, OnModuleInit, Logger } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-// 👈 adjust the path if your folder structure is slightly different
 import productsData from "../../data.json"
 import { Product, ProductDocument } from 'src/module/product/model';
 

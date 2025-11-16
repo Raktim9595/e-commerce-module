@@ -9,12 +9,10 @@ export class ProductService {
         private readonly productRepositiry: productRepository
     ) { }
 
-    async findAll(): Promise<ProductResponseDto[]> {
-        const products = await this.productRepositiry.findAll();
-        return plainToInstance(ProductResponseDto, products, {
-            excludeExtraneousValues: true
-        })
+    async findAll() {
+        return this.productRepositiry.findAll();
     }
+
 
     async findById(id: string): Promise<ProductResponseDto> {
         const product = await this.productRepositiry.findById(id);
