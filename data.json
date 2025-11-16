@@ -1,0 +1,1262 @@
+[
+    {
+        "name": "Classic White T-Shirt",
+        "description": "Soft cotton unisex white t-shirt for everyday wear.",
+        "brand": "UrbanWear",
+        "type": "CLOTHING",
+        "price": 19.99,
+        "stock": 150,
+        "isActive": true
+    },
+    {
+        "name": "Black Slim Fit Jeans",
+        "description": "Stretchable slim fit black denim jeans.",
+        "brand": "DenimPro",
+        "type": "CLOTHING",
+        "price": 49.99,
+        "stock": 80,
+        "isActive": true
+    },
+    {
+        "name": "Blue Checked Casual Shirt",
+        "description": "Button-down cotton shirt with blue checks.",
+        "brand": "StreetLine",
+        "type": "CLOTHING",
+        "price": 34.5,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Floral Summer Dress",
+        "description": "Lightweight knee-length floral dress for summer.",
+        "brand": "BloomStyle",
+        "type": "CLOTHING",
+        "price": 39.9,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Formal Navy Blazer",
+        "description": "Single-breasted navy blazer suitable for office and events.",
+        "brand": "RoyalTailor",
+        "type": "CLOTHING",
+        "price": 119.99,
+        "stock": 35,
+        "isActive": true
+    },
+    {
+        "name": "Grey Hoodie with Front Pocket",
+        "description": "Warm fleece hoodie with adjustable drawstring.",
+        "brand": "CozyFit",
+        "type": "CLOTHING",
+        "price": 29.99,
+        "stock": 95,
+        "isActive": true
+    },
+    {
+        "name": "Athletic Jogger Pants",
+        "description": "Breathable joggers designed for workouts and casual wear.",
+        "brand": "FitMax",
+        "type": "CLOTHING",
+        "price": 32.0,
+        "stock": 110,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Black Leggings",
+        "description": "High-waist stretch leggings for gym and daily use.",
+        "brand": "FlexWear",
+        "type": "CLOTHING",
+        "price": 24.99,
+        "stock": 120,
+        "isActive": true
+    },
+    {
+        "name": "Unisex Denim Jacket",
+        "description": "Classic blue denim jacket with metal buttons.",
+        "brand": "DenimPro",
+        "type": "CLOTHING",
+        "price": 59.99,
+        "stock": 50,
+        "isActive": true
+    },
+    {
+        "name": "Striped Polo Shirt",
+        "description": "Short-sleeve polo shirt with horizontal stripes.",
+        "brand": "UrbanWear",
+        "type": "CLOTHING",
+        "price": 27.5,
+        "stock": 75,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Long Cardigan",
+        "description": "Soft knit longline cardigan with open front.",
+        "brand": "CozyFit",
+        "type": "CLOTHING",
+        "price": 44.99,
+        "stock": 40,
+        "isActive": true
+    },
+    {
+        "name": "Basic Black Crewneck Tee",
+        "description": "Everyday crewneck t-shirt with a relaxed fit.",
+        "brand": "StreetLine",
+        "type": "CLOTHING",
+        "price": 17.99,
+        "stock": 160,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Chino Pants Khaki",
+        "description": "Slim fit chinos in classic khaki color.",
+        "brand": "RoyalTailor",
+        "type": "CLOTHING",
+        "price": 42.99,
+        "stock": 65,
+        "isActive": true
+    },
+    {
+        "name": "Oversized Graphic T-Shirt",
+        "description": "Streetwear style t-shirt with graphic print.",
+        "brand": "UrbanWear",
+        "type": "CLOTHING",
+        "price": 29.5,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Women’s High-Waist Mom Jeans",
+        "description": "Vintage style high-rise jeans with relaxed fit.",
+        "brand": "DenimPro",
+        "type": "CLOTHING",
+        "price": 54.0,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Puffer Jacket Olive Green",
+        "description": "Lightweight insulated puffer jacket with zipper.",
+        "brand": "CozyFit",
+        "type": "CLOTHING",
+        "price": 79.99,
+        "stock": 45,
+        "isActive": true
+    },
+    {
+        "name": "Unisex Sweat Shorts",
+        "description": "Comfortable cotton sweat shorts with elastic waistband.",
+        "brand": "FitMax",
+        "type": "CLOTHING",
+        "price": 22.5,
+        "stock": 100,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Ribbed Tank Top",
+        "description": "Slim fit ribbed tank top ideal for layering.",
+        "brand": "BloomStyle",
+        "type": "CLOTHING",
+        "price": 15.99,
+        "stock": 140,
+        "isActive": true
+    },
+    {
+        "name": "Formal White Dress Shirt",
+        "description": "Long-sleeve white shirt suitable for suits and ties.",
+        "brand": "RoyalTailor",
+        "type": "CLOTHING",
+        "price": 39.99,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Quilted Vest",
+        "description": "Sleeveless quilted vest for light layering.",
+        "brand": "CozyFit",
+        "type": "CLOTHING",
+        "price": 49.5,
+        "stock": 50,
+        "isActive": true
+    },
+    {
+        "name": "Running Performance T-Shirt",
+        "description": "Moisture-wicking t-shirt designed for runners.",
+        "brand": "FitMax",
+        "type": "CLOTHING",
+        "price": 26.99,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Pleated Skirt",
+        "description": "Knee-length pleated skirt for casual or office wear.",
+        "brand": "BloomStyle",
+        "type": "CLOTHING",
+        "price": 36.0,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Casual Linen Shirt",
+        "description": "Breathable linen shirt with relaxed fit.",
+        "brand": "StreetLine",
+        "type": "CLOTHING",
+        "price": 41.99,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Track Jacket",
+        "description": "Zip-up track jacket with contrast stripes on sleeves.",
+        "brand": "FitMax",
+        "type": "CLOTHING",
+        "price": 58.0,
+        "stock": 48,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Cropped Hoodie",
+        "description": "Cropped hoodie with adjustable hood and ribbed cuffs.",
+        "brand": "UrbanWear",
+        "type": "CLOTHING",
+        "price": 37.99,
+        "stock": 75,
+        "isActive": true
+    },
+    {
+        "name": "Basic White Tank Top",
+        "description": "Sleeveless tank top, ideal for layering or gym.",
+        "brand": "FlexWear",
+        "type": "CLOTHING",
+        "price": 12.99,
+        "stock": 130,
+        "isActive": true
+    },
+    {
+        "name": "Unisex Crewneck Sweatshirt",
+        "description": "Cozy sweatshirt with ribbed cuffs and hem.",
+        "brand": "CozyFit",
+        "type": "CLOTHING",
+        "price": 33.5,
+        "stock": 85,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Cargo Shorts",
+        "description": "Cotton cargo shorts with multiple utility pockets.",
+        "brand": "StreetLine",
+        "type": "CLOTHING",
+        "price": 29.99,
+        "stock": 72,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Wrap Dress",
+        "description": "Elegant wrap dress with adjustable waist tie.",
+        "brand": "BloomStyle",
+        "type": "CLOTHING",
+        "price": 52.0,
+        "stock": 44,
+        "isActive": true
+    },
+    {
+        "name": "Thermal Base Layer Top",
+        "description": "Long-sleeve thermal top for cold weather layering.",
+        "brand": "FitMax",
+        "type": "CLOTHING",
+        "price": 28.99,
+        "stock": 64,
+        "isActive": true
+    },
+    {
+        "name": "Men’s V-Neck Sweater",
+        "description": "Fine knit v-neck sweater suitable for office wear.",
+        "brand": "RoyalTailor",
+        "type": "CLOTHING",
+        "price": 47.5,
+        "stock": 52,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Wide-Leg Trousers",
+        "description": "High-waist wide-leg trousers with relaxed silhouette.",
+        "brand": "BloomStyle",
+        "type": "CLOTHING",
+        "price": 49.99,
+        "stock": 58,
+        "isActive": true
+    },
+    {
+        "name": "Graphic Hoodie Street Art",
+        "description": "Oversized hoodie featuring street art graphic print.",
+        "brand": "UrbanWear",
+        "type": "CLOTHING",
+        "price": 55.0,
+        "stock": 40,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Checkered Flannel Shirt",
+        "description": "Warm flannel shirt with red and black checks.",
+        "brand": "StreetLine",
+        "type": "CLOTHING",
+        "price": 38.99,
+        "stock": 63,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Knit Sweater Dress",
+        "description": "Cozy sweater dress with long sleeves and ribbed hem.",
+        "brand": "CozyFit",
+        "type": "CLOTHING",
+        "price": 59.5,
+        "stock": 39,
+        "isActive": true
+    },
+    {
+        "name": "Training Compression Shirt",
+        "description": "Tight fit compression shirt for intense workouts.",
+        "brand": "FitMax",
+        "type": "CLOTHING",
+        "price": 34.99,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Basic Grey Sweatpants",
+        "description": "Relaxed fit sweatpants with drawstring waist.",
+        "brand": "CozyFit",
+        "type": "CLOTHING",
+        "price": 31.99,
+        "stock": 80,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Denim Shorts",
+        "description": "High-rise denim shorts with frayed hem.",
+        "brand": "DenimPro",
+        "type": "CLOTHING",
+        "price": 27.99,
+        "stock": 76,
+        "isActive": true
+    },
+    {
+        "name": "Unisex Rain Jacket",
+        "description": "Water-resistant hooded rain jacket with zipper.",
+        "brand": "StreetLine",
+        "type": "CLOTHING",
+        "price": 64.5,
+        "stock": 42,
+        "isActive": true
+    },
+    {
+        "name": "Low-Top Canvas Sneakers",
+        "description": "Classic lace-up canvas sneakers for daily use.",
+        "brand": "StepMax",
+        "type": "SHOES",
+        "price": 39.99,
+        "stock": 120,
+        "isActive": true
+    },
+    {
+        "name": "Running Shoes Pro Runner",
+        "description": "Lightweight running shoes with cushioned midsole.",
+        "brand": "RunCore",
+        "type": "SHOES",
+        "price": 89.99,
+        "stock": 75,
+        "isActive": true
+    },
+    {
+        "name": "High-Top Street Sneakers",
+        "description": "High-top sneakers with padded collar and rubber sole.",
+        "brand": "StreetStep",
+        "type": "SHOES",
+        "price": 69.5,
+        "stock": 65,
+        "isActive": true
+    },
+    {
+        "name": "Leather Formal Oxford Shoes",
+        "description": "Genuine leather oxford shoes for formal occasions.",
+        "brand": "ClassicStep",
+        "type": "SHOES",
+        "price": 119.0,
+        "stock": 30,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Ballet Flats",
+        "description": "Comfortable slip-on ballet flats with cushioned insole.",
+        "brand": "EleganceWalk",
+        "type": "SHOES",
+        "price": 44.99,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Trail Hiking Boots",
+        "description": "Rugged hiking boots with ankle support and grip sole.",
+        "brand": "MountainTrack",
+        "type": "SHOES",
+        "price": 129.99,
+        "stock": 28,
+        "isActive": true
+    },
+    {
+        "name": "Slip-On Comfort Loafers",
+        "description": "Casual loafers with breathable lining and soft outsole.",
+        "brand": "SoftWalk",
+        "type": "SHOES",
+        "price": 59.99,
+        "stock": 48,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Heeled Sandals",
+        "description": "Open-toe block-heel sandals suitable for parties.",
+        "brand": "EleganceWalk",
+        "type": "SHOES",
+        "price": 69.99,
+        "stock": 36,
+        "isActive": true
+    },
+    {
+        "name": "Sport Slide Sandals",
+        "description": "Easy slip-on slides with cushioned footbed.",
+        "brand": "StepMax",
+        "type": "SHOES",
+        "price": 24.99,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Chelsea Boots",
+        "description": "Leather chelsea boots with elastic side panel.",
+        "brand": "ClassicStep",
+        "type": "SHOES",
+        "price": 139.99,
+        "stock": 25,
+        "isActive": true
+    },
+    {
+        "name": "Kids’ Light-Up Sneakers",
+        "description": "Fun sneakers with LED lights in the sole.",
+        "brand": "BrightKids",
+        "type": "SHOES",
+        "price": 49.99,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Running Shoes Breeze",
+        "description": "Breathable running shoes with soft mesh upper.",
+        "brand": "RunCore",
+        "type": "SHOES",
+        "price": 84.99,
+        "stock": 52,
+        "isActive": true
+    },
+    {
+        "name": "Leather Dress Boots",
+        "description": "Polished leather dress boots for formal outfits.",
+        "brand": "ClassicStep",
+        "type": "SHOES",
+        "price": 149.0,
+        "stock": 20,
+        "isActive": true
+    },
+    {
+        "name": "Minimalist White Sneakers",
+        "description": "Clean design white sneakers, versatile for many outfits.",
+        "brand": "StreetStep",
+        "type": "SHOES",
+        "price": 74.99,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Ankle Boots Suede",
+        "description": "Suede ankle boots with side zipper.",
+        "brand": "EleganceWalk",
+        "type": "SHOES",
+        "price": 99.99,
+        "stock": 34,
+        "isActive": true
+    },
+    {
+        "name": "Training Gym Shoes",
+        "description": "Multi-purpose training shoes for gym workouts.",
+        "brand": "FitMax",
+        "type": "SHOES",
+        "price": 79.99,
+        "stock": 58,
+        "isActive": true
+    },
+    {
+        "name": "Outdoor Sandals",
+        "description": "Adjustable strap sandals suitable for outdoor activities.",
+        "brand": "MountainTrack",
+        "type": "SHOES",
+        "price": 54.99,
+        "stock": 44,
+        "isActive": true
+    },
+    {
+        "name": "Men’s Monk Strap Shoes",
+        "description": "Formal monk strap shoes with buckle detail.",
+        "brand": "ClassicStep",
+        "type": "SHOES",
+        "price": 129.5,
+        "stock": 18,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Platform Sneakers",
+        "description": "Chunky platform sneakers for a trendy look.",
+        "brand": "StreetStep",
+        "type": "SHOES",
+        "price": 82.99,
+        "stock": 42,
+        "isActive": true
+    },
+    {
+        "name": "Digital Sport Watch",
+        "description": "Water-resistant sport watch with stopwatch and alarm.",
+        "brand": "TimeCore",
+        "type": "WATCHES",
+        "price": 59.99,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Classic Analog Leather Watch",
+        "description": "Minimalist analog watch with leather strap.",
+        "brand": "ChronoLine",
+        "type": "WATCHES",
+        "price": 129.99,
+        "stock": 40,
+        "isActive": true
+    },
+    {
+        "name": "Stainless Steel Dress Watch",
+        "description": "Elegant stainless steel case and bracelet design.",
+        "brand": "RoyalTime",
+        "type": "WATCHES",
+        "price": 179.99,
+        "stock": 28,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Rose Gold Watch",
+        "description": "Rose gold tone watch with crystal markers.",
+        "brand": "EleganceTime",
+        "type": "WATCHES",
+        "price": 159.5,
+        "stock": 35,
+        "isActive": true
+    },
+    {
+        "name": "Smartwatch Active Series",
+        "description": "Fitness tracking smartwatch with heart-rate monitor.",
+        "brand": "TechWatch",
+        "type": "WATCHES",
+        "price": 229.99,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Chronograph Sport Watch",
+        "description": "Multi-dial chronograph watch with tachymeter bezel.",
+        "brand": "TimeCore",
+        "type": "WATCHES",
+        "price": 199.99,
+        "stock": 22,
+        "isActive": true
+    },
+    {
+        "name": "Minimalist Mesh Strap Watch",
+        "description": "Slim watch with stainless mesh strap design.",
+        "brand": "ChronoLine",
+        "type": "WATCHES",
+        "price": 139.0,
+        "stock": 37,
+        "isActive": true
+    },
+    {
+        "name": "Kids’ Colorful Digital Watch",
+        "description": "Fun watch with bright colors and easy-to-read display.",
+        "brand": "BrightKids",
+        "type": "WATCHES",
+        "price": 29.99,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Diver’s Watch 200M",
+        "description": "Professional diver’s watch with 200m water resistance.",
+        "brand": "OceanTime",
+        "type": "WATCHES",
+        "price": 249.99,
+        "stock": 18,
+        "isActive": true
+    },
+    {
+        "name": "Hybrid Smartwatch",
+        "description": "Analog look with hidden smart features and notifications.",
+        "brand": "TechWatch",
+        "type": "WATCHES",
+        "price": 219.99,
+        "stock": 26,
+        "isActive": true
+    },
+    {
+        "name": "Women’s Bracelet Watch",
+        "description": "Watch styled as a bracelet with slim profile.",
+        "brand": "EleganceTime",
+        "type": "WATCHES",
+        "price": 149.99,
+        "stock": 32,
+        "isActive": true
+    },
+    {
+        "name": "Field Watch Canvas Strap",
+        "description": "Rugged field watch with canvas strap and luminous hands.",
+        "brand": "TimeCore",
+        "type": "WATCHES",
+        "price": 119.99,
+        "stock": 30,
+        "isActive": true
+    },
+    {
+        "name": "Solar Powered Watch",
+        "description": "Watch powered by light with long battery life.",
+        "brand": "EcoTime",
+        "type": "WATCHES",
+        "price": 189.99,
+        "stock": 24,
+        "isActive": true
+    },
+    {
+        "name": "Smartwatch Lite",
+        "description": "Entry-level smartwatch with step tracking and notifications.",
+        "brand": "TechWatch",
+        "type": "WATCHES",
+        "price": 149.99,
+        "stock": 48,
+        "isActive": true
+    },
+    {
+        "name": "Rugged Outdoor Watch",
+        "description": "Shock-resistant watch built for outdoor adventures.",
+        "brand": "MountainTrack",
+        "type": "WATCHES",
+        "price": 169.99,
+        "stock": 21,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone Nova X",
+        "description": "6.5-inch Android smartphone with triple camera setup.",
+        "brand": "NovaTech",
+        "type": "PHONE",
+        "price": 499.99,
+        "stock": 80,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone Nova X Pro",
+        "description": "High-end Android phone with OLED display and 5G.",
+        "brand": "NovaTech",
+        "type": "PHONE",
+        "price": 799.99,
+        "stock": 45,
+        "isActive": true
+    },
+    {
+        "name": "Budget Android Phone Lite",
+        "description": "Affordable smartphone with long battery life.",
+        "brand": "PixelWave",
+        "type": "PHONE",
+        "price": 249.99,
+        "stock": 100,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone PixelWave S",
+        "description": "Mid-range phone with 64MP main camera.",
+        "brand": "PixelWave",
+        "type": "PHONE",
+        "price": 399.99,
+        "stock": 75,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone SkyOne",
+        "description": "Slim design smartphone with AMOLED screen.",
+        "brand": "Skyline",
+        "type": "PHONE",
+        "price": 549.99,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone SkyOne Max",
+        "description": "Large screen phone for media and gaming.",
+        "brand": "Skyline",
+        "type": "PHONE",
+        "price": 699.99,
+        "stock": 40,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone EcoMini",
+        "description": "Compact phone made with recycled materials.",
+        "brand": "GreenMobile",
+        "type": "PHONE",
+        "price": 329.99,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone EcoPlus",
+        "description": "Eco-friendly smartphone with efficient chipset.",
+        "brand": "GreenMobile",
+        "type": "PHONE",
+        "price": 429.99,
+        "stock": 48,
+        "isActive": true
+    },
+    {
+        "name": "Gaming Phone Turbo G",
+        "description": "High-refresh-rate screen and gaming-optimized CPU.",
+        "brand": "TurboGear",
+        "type": "PHONE",
+        "price": 899.99,
+        "stock": 30,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone CityLite",
+        "description": "Entry-level device for basic daily use.",
+        "brand": "CityComm",
+        "type": "PHONE",
+        "price": 199.99,
+        "stock": 120,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone CityLite Plus",
+        "description": "Improved camera and storage from CityLite series.",
+        "brand": "CityComm",
+        "type": "PHONE",
+        "price": 259.99,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Foldable Phone FlexFold",
+        "description": "Foldable display smartphone with dual screen modes.",
+        "brand": "NovaTech",
+        "type": "PHONE",
+        "price": 1299.99,
+        "stock": 20,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone OceanBlue",
+        "description": "Water-resistant phone with IP68 rating.",
+        "brand": "OceanMobile",
+        "type": "PHONE",
+        "price": 599.99,
+        "stock": 52,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone OceanBlue Lite",
+        "description": "Slimmer and lighter version of OceanBlue.",
+        "brand": "OceanMobile",
+        "type": "PHONE",
+        "price": 449.99,
+        "stock": 61,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone ProCam X",
+        "description": "Flagship camera phone with periscope zoom.",
+        "brand": "PixelWave",
+        "type": "PHONE",
+        "price": 949.99,
+        "stock": 22,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone MaxBattery",
+        "description": "Huge 7000mAh battery for multi-day use.",
+        "brand": "PowerCell",
+        "type": "PHONE",
+        "price": 579.99,
+        "stock": 36,
+        "isActive": true
+    },
+    {
+        "name": "Android Phone Student Edition",
+        "description": "Affordable student-focused phone with study apps.",
+        "brand": "EduPhone",
+        "type": "PHONE",
+        "price": 229.99,
+        "stock": 88,
+        "isActive": true
+    },
+    {
+        "name": "Leather Wallet Brown",
+        "description": "Genuine leather bi-fold wallet with multiple card slots.",
+        "brand": "UrbanLeather",
+        "type": "ACCESSORIES",
+        "price": 39.99,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Leather Belt Black",
+        "description": "Adjustable black leather belt with metal buckle.",
+        "brand": "UrbanLeather",
+        "type": "ACCESSORIES",
+        "price": 29.99,
+        "stock": 110,
+        "isActive": true
+    },
+    {
+        "name": "Aviator Sunglasses",
+        "description": "UV-protected aviator-style sunglasses with metal frame.",
+        "brand": "SunView",
+        "type": "ACCESSORIES",
+        "price": 49.99,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Wayfarer Sunglasses",
+        "description": "Classic wayfarer sunglasses with polarized lenses.",
+        "brand": "SunView",
+        "type": "ACCESSORIES",
+        "price": 54.99,
+        "stock": 65,
+        "isActive": true
+    },
+    {
+        "name": "Canvas Backpack",
+        "description": "Durable canvas backpack with laptop compartment.",
+        "brand": "PackPro",
+        "type": "ACCESSORIES",
+        "price": 59.99,
+        "stock": 80,
+        "isActive": true
+    },
+    {
+        "name": "Travel Duffel Bag",
+        "description": "Spacious duffel bag ideal for short trips.",
+        "brand": "PackPro",
+        "type": "ACCESSORIES",
+        "price": 79.99,
+        "stock": 50,
+        "isActive": true
+    },
+    {
+        "name": "Knitted Beanie Hat",
+        "description": "Warm knitted beanie for cold weather.",
+        "brand": "CozyHead",
+        "type": "ACCESSORIES",
+        "price": 19.99,
+        "stock": 95,
+        "isActive": true
+    },
+    {
+        "name": "Baseball Cap Navy",
+        "description": "Adjustable cotton baseball cap with curved brim.",
+        "brand": "StreetCap",
+        "type": "ACCESSORIES",
+        "price": 24.99,
+        "stock": 85,
+        "isActive": true
+    },
+    {
+        "name": "Silk Tie Burgundy",
+        "description": "Elegant silk necktie for formal occasions.",
+        "brand": "RoyalTailor",
+        "type": "ACCESSORIES",
+        "price": 34.99,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Wool Scarf Grey",
+        "description": "Soft wool scarf to keep you warm in winter.",
+        "brand": "CozyHead",
+        "type": "ACCESSORIES",
+        "price": 29.99,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Leather Gloves",
+        "description": "Insulated leather gloves for cold days.",
+        "brand": "UrbanLeather",
+        "type": "ACCESSORIES",
+        "price": 44.99,
+        "stock": 40,
+        "isActive": true
+    },
+    {
+        "name": "Canvas Messenger Bag",
+        "description": "Crossbody messenger bag with adjustable strap.",
+        "brand": "PackPro",
+        "type": "ACCESSORIES",
+        "price": 64.99,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Phone Case Clear",
+        "description": "Transparent protective phone case.",
+        "brand": "GuardTech",
+        "type": "ACCESSORIES",
+        "price": 14.99,
+        "stock": 150,
+        "isActive": true
+    },
+    {
+        "name": "Phone Case Rugged",
+        "description": "Shock-absorbent rugged phone case for extra protection.",
+        "brand": "GuardTech",
+        "type": "ACCESSORIES",
+        "price": 24.99,
+        "stock": 120,
+        "isActive": true
+    },
+    {
+        "name": "Laptop Sleeve 15-inch",
+        "description": "Padded sleeve for 15-inch laptops.",
+        "brand": "PackPro",
+        "type": "ACCESSORIES",
+        "price": 32.99,
+        "stock": 65,
+        "isActive": true
+    },
+    {
+        "name": "Fitness Headband Set",
+        "description": "Sweat-absorbing headband and wristband set.",
+        "brand": "FitMax",
+        "type": "ACCESSORIES",
+        "price": 18.99,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Wireless Earbuds Case Cover",
+        "description": "Silicone cover for wireless earbuds charging case.",
+        "brand": "GuardTech",
+        "type": "ACCESSORIES",
+        "price": 12.99,
+        "stock": 140,
+        "isActive": true
+    },
+    {
+        "name": "Keychain Leather Loop",
+        "description": "Simple leather loop keychain with metal ring.",
+        "brand": "UrbanLeather",
+        "type": "ACCESSORIES",
+        "price": 9.99,
+        "stock": 160,
+        "isActive": true
+    },
+    {
+        "name": "Bluetooth Speaker Mini",
+        "description": "Portable mini Bluetooth speaker with clear sound.",
+        "brand": "SoundBox",
+        "type": "GADGETS",
+        "price": 39.99,
+        "stock": 100,
+        "isActive": true
+    },
+    {
+        "name": "Bluetooth Speaker Max",
+        "description": "Larger Bluetooth speaker with deep bass.",
+        "brand": "SoundBox",
+        "type": "GADGETS",
+        "price": 89.99,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Wireless Earbuds Pro",
+        "description": "Noise-cancelling wireless earbuds with charging case.",
+        "brand": "AudioFlex",
+        "type": "GADGETS",
+        "price": 129.99,
+        "stock": 80,
+        "isActive": true
+    },
+    {
+        "name": "Wireless Earbuds Lite",
+        "description": "Compact wireless earbuds for daily use.",
+        "brand": "AudioFlex",
+        "type": "GADGETS",
+        "price": 69.99,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Smart Home Plug",
+        "description": "Wi-Fi smart plug compatible with voice assistants.",
+        "brand": "SmartHive",
+        "type": "GADGETS",
+        "price": 24.99,
+        "stock": 120,
+        "isActive": true
+    },
+    {
+        "name": "Smart LED Light Bulb",
+        "description": "Color-changing smart bulb with app control.",
+        "brand": "SmartHive",
+        "type": "GADGETS",
+        "price": 22.99,
+        "stock": 110,
+        "isActive": true
+    },
+    {
+        "name": "Fitness Tracker Band",
+        "description": "Activity tracker with heart-rate and sleep monitoring.",
+        "brand": "FitMax",
+        "type": "GADGETS",
+        "price": 59.99,
+        "stock": 85,
+        "isActive": true
+    },
+    {
+        "name": "Portable Power Bank 10,000mAh",
+        "description": "Compact power bank for charging devices on the go.",
+        "brand": "PowerCell",
+        "type": "GADGETS",
+        "price": 34.99,
+        "stock": 130,
+        "isActive": true
+    },
+    {
+        "name": "Portable Power Bank 20,000mAh",
+        "description": "High-capacity power bank with dual USB output.",
+        "brand": "PowerCell",
+        "type": "GADGETS",
+        "price": 54.99,
+        "stock": 90,
+        "isActive": true
+    },
+    {
+        "name": "Wireless Charging Pad",
+        "description": "Fast wireless charger compatible with most phones.",
+        "brand": "ChargeHub",
+        "type": "GADGETS",
+        "price": 29.99,
+        "stock": 95,
+        "isActive": true
+    },
+    {
+        "name": "Multi-Port USB Charger",
+        "description": "USB wall charger with four output ports.",
+        "brand": "ChargeHub",
+        "type": "GADGETS",
+        "price": 27.99,
+        "stock": 100,
+        "isActive": true
+    },
+    {
+        "name": "Noise-Cancelling Headphones",
+        "description": "Over-ear headphones with active noise cancellation.",
+        "brand": "AudioFlex",
+        "type": "GADGETS",
+        "price": 159.99,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Action Camera 4K",
+        "description": "Compact action camera with 4K video recording.",
+        "brand": "AdventureCam",
+        "type": "GADGETS",
+        "price": 199.99,
+        "stock": 40,
+        "isActive": true
+    },
+    {
+        "name": "Smart Doorbell Camera",
+        "description": "Wi-Fi doorbell with video and motion detection.",
+        "brand": "HomeSecure",
+        "type": "GADGETS",
+        "price": 179.99,
+        "stock": 35,
+        "isActive": true
+    },
+    {
+        "name": "Robot Vacuum Cleaner",
+        "description": "Smart robot vacuum with app control.",
+        "brand": "CleanBot",
+        "type": "GADGETS",
+        "price": 299.99,
+        "stock": 25,
+        "isActive": true
+    },
+    {
+        "name": "USB-C Hub 7-in-1",
+        "description": "Multi-port USB-C hub with HDMI and card readers.",
+        "brand": "ConnectPro",
+        "type": "GADGETS",
+        "price": 49.99,
+        "stock": 85,
+        "isActive": true
+    },
+    {
+        "name": "Laptop Cooling Pad",
+        "description": "Cooling pad with dual fans and adjustable height.",
+        "brand": "CoolTech",
+        "type": "GADGETS",
+        "price": 32.99,
+        "stock": 70,
+        "isActive": true
+    },
+    {
+        "name": "Streaming Media Stick",
+        "description": "HDMI streaming stick for TV with remote.",
+        "brand": "StreamBox",
+        "type": "GADGETS",
+        "price": 59.99,
+        "stock": 65,
+        "isActive": true
+    },
+    {
+        "name": "Car Phone Mount",
+        "description": "Magnetic phone mount for car dashboards.",
+        "brand": "DriveEase",
+        "type": "GADGETS",
+        "price": 19.99,
+        "stock": 120,
+        "isActive": true
+    },
+    {
+        "name": "Dash Camera Full HD",
+        "description": "Car dash cam with loop recording and night vision.",
+        "brand": "DriveEase",
+        "type": "GADGETS",
+        "price": 89.99,
+        "stock": 50,
+        "isActive": true
+    },
+    {
+        "name": "Smart Thermostat",
+        "description": "Wi-Fi thermostat with programmable schedules.",
+        "brand": "SmartHive",
+        "type": "GADGETS",
+        "price": 219.99,
+        "stock": 30,
+        "isActive": true
+    },
+    {
+        "name": "LED Desk Lamp",
+        "description": "Adjustable LED lamp with brightness settings.",
+        "brand": "BrightDesk",
+        "type": "GADGETS",
+        "price": 39.99,
+        "stock": 100,
+        "isActive": true
+    },
+    {
+        "name": "USB Microphone",
+        "description": "Plug-and-play USB microphone for streaming and calls.",
+        "brand": "SoundBox",
+        "type": "GADGETS",
+        "price": 79.99,
+        "stock": 60,
+        "isActive": true
+    },
+    {
+        "name": "Webcam HD 1080p",
+        "description": "Full HD webcam with built-in microphone.",
+        "brand": "ConnectPro",
+        "type": "GADGETS",
+        "price": 69.99,
+        "stock": 75,
+        "isActive": true
+    },
+    {
+        "name": "Smart Scale Body Analyzer",
+        "description": "Bluetooth body weight scale with composition analysis.",
+        "brand": "FitMax",
+        "type": "GADGETS",
+        "price": 59.99,
+        "stock": 55,
+        "isActive": true
+    },
+    {
+        "name": "Portable Projector Mini",
+        "description": "Compact projector for movies and presentations.",
+        "brand": "ViewPort",
+        "type": "GADGETS",
+        "price": 229.99,
+        "stock": 28,
+        "isActive": true
+    },
+    {
+        "name": "Smart Alarm Clock",
+        "description": "Alarm clock with Bluetooth speaker and USB charging.",
+        "brand": "BrightDesk",
+        "type": "GADGETS",
+        "price": 49.99,
+        "stock": 65,
+        "isActive": true
+    },
+    {
+        "name": "Smartphone Gimbal",
+        "description": "3-axis handheld gimbal stabilizer for smartphones.",
+        "brand": "AdventureCam",
+        "type": "GADGETS",
+        "price": 119.99,
+        "stock": 40,
+        "isActive": true
+    },
+    {
+        "name": "VR Headset Basic",
+        "description": "Entry-level VR headset for mobile phones.",
+        "brand": "ImmersiveXR",
+        "type": "GADGETS",
+        "price": 69.99,
+        "stock": 52,
+        "isActive": true
+    },
+    {
+        "name": "VR Headset Pro",
+        "description": "High-end VR headset for PCs and consoles.",
+        "brand": "ImmersiveXR",
+        "type": "GADGETS",
+        "price": 399.99,
+        "stock": 20,
+        "isActive": true
+    },
+    {
+        "name": "Smart Light Strip",
+        "description": "Color LED light strip with app and voice control.",
+        "brand": "SmartHive",
+        "type": "GADGETS",
+        "price": 34.99,
+        "stock": 95,
+        "isActive": true
+    },
+    {
+        "name": "Wireless Keyboard and Mouse Combo",
+        "description": "Compact wireless keyboard with matching mouse.",
+        "brand": "KeyPro",
+        "type": "GADGETS",
+        "price": 49.99,
+        "stock": 90,
+        "isActive": true
+    }
+]
