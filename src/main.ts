@@ -3,6 +3,7 @@ import { AppModule } from './app.module';
 import { GlobalExceptionFilter, ResponseInterceptor, swaggerConfig } from './utils';
 import { SwaggerModule } from '@nestjs/swagger';
 import { ValidationPipe } from '@nestjs/common';
+import * as bodyParser from "body-parser";
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -30,6 +31,14 @@ async function bootstrap() {
 
   // register global exception filter
   app.useGlobalFilters(new GlobalExceptionFilter())
+
+  app.use(
+    bodyParser.json({
+      verify: (req: any, res, buf) => {
+        req.rawBody = buf; // store raw body
+      },
+    }),
+  );
 
   await app.listen(process.env.PORT ?? 8080);
 }

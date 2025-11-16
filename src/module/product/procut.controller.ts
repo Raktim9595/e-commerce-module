@@ -13,4 +13,9 @@ export class ProductController {
     async findAll() {
         return this.productService.findAll();
     }
+
+    @Get("stock")
+    async getStockDetails() {
+        return this.productService.getStockInfo();
+    }
 }

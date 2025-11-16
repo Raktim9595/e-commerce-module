@@ -6,7 +6,11 @@ export type OrderDocument = Order & Document;
 
 export enum OrderStatus {
     PENDING = 'PENDING',
+    PENDING_PAYMENT = "PENDING_PAYMENT",
     PAID = 'PAID',
+    DELIVERED = 'DELIVERED',
+    SHIPPING = 'SHIPPING',
+    RETURNED = 'RETURNED',
     CANCELLED = 'CANCELLED',
 }
 

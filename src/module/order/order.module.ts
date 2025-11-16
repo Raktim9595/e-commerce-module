@@ -6,6 +6,7 @@ import { orderService } from "./order.service";
 import { OrderController } from "./order.controller";
 import { CartModule } from "../cart";
 import { ProductModule } from "../product";
+import { StripeModule } from "../stripe";
 
 @Module({
     imports: [MongooseModule.forFeature([{
@@ -13,8 +14,10 @@ import { ProductModule } from "../product";
     }]),
         CartModule,
         ProductModule,
+        StripeModule,
     ],
     providers: [OrderRepository, orderService],
-    controllers: [OrderController]
+    controllers: [OrderController],
+    exports: [orderService, OrderRepository]
 })
 export class OrderModule { }

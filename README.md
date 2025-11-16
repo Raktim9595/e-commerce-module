@@ -57,6 +57,27 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Set up env variables
+```bash
+# mongodb URI
+MONGODB_URI = "Your mongodb URI from free mongodb atlas cloud cluster"
+
+# stripe secrets
+STRIPE_SECRET_KEY = "Your stripe secret key"
+STRIPE_PUBLISHABLE_KEY = "Your stripe publishable key"
+STRIPE_WEBHOOK_SECRET = "Secret for webhook to allow sending request to my server"
+```
+
+## How to get the STRIPE_WEBHOOK_SECRET
+
+Here we aren't deploying the server so it's tricky as stripe can't request the server on our localhost.
+Follow the following list of commands to get secret for stripe webhook which can target our localhost,
+1. Install and setup stripe CLI.
+2. Login to the desired stripe account
+3. `stripe listen --forward-to localhost:8080/payment/webhook` # command to target our endpoint by the webhook and generate the secret key for our localhost
+
+Note: the endpoint name should be same while genrating secret, eg: our secret endpoint for stripe webhook is payment/webhook, so our server should also has payment/webhook as a listener which catches the webhook event
+
 ## Deployment
 
 When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.

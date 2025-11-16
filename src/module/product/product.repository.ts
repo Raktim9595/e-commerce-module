@@ -20,4 +20,40 @@ export class productRepository {
     async updateStock(id: string, stock: number) {
         return this.productModel.updateOne({ _id: id }, { $set: { stock } }).exec();
     }
+
+    async getStockInfo() {
+        return this.productModel.aggregate([
+            {
+                $facet: {
+                    summary: [
+                        {
+                            $group: {
+                                _id: null,
+                                totalProducts: { $sum: 1 },
+                                totalStock: { $sum: "$stock" },
+                            },
+                        },
+                        { $project: { _id: 0 } },
+                    ],
+                    products: [
+                        {
+                            $project: {
+                                id: { $toString: "$_id" },
+                                name: 1,
+                                stock: 1,
+                                _id: 0,
+                            },
+                        },
+                    ],
+                },
+            },
+            {
+                $project: {
+                    totalProducts: { $arrayElemAt: ["$summary.totalProducts", 0] },
+                    totalStock: { $arrayElemAt: ["$summary.totalStock", 0] },
+                    products: 1,
+                },
+            },
+        ]).exec();
+    }
 }

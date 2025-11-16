@@ -14,10 +14,14 @@ export class OrderRepository {
     }
 
     async findByUserId(userId: string) {
-        return this.orderModel.find({ userId }).populate("items.product").exec();
+        return this.orderModel.find({ userId }).exec();
     }
 
     async findById(id: string) {
-        return this.orderModel.findById(id).populate("items.product").exec();
+        return this.orderModel.findById(id).exec();
+    }
+
+    async findByIdAndUpdate(id: string, data: Partial<Order>) {
+        await this.findByIdAndUpdate(id, data)
     }
 } 

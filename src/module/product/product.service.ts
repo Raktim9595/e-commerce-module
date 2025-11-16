@@ -1,4 +1,4 @@
-import { Injectable } from "@nestjs/common";
+import { Injectable, NotFoundException } from "@nestjs/common";
 import { productRepository } from "./product.repository";
 import { plainToInstance } from "class-transformer";
 import { ProductResponseDto } from "./dto";
@@ -24,6 +24,15 @@ export class ProductService {
     }
 
     async updateStock(id: string, stock: number) {
-        return this.productRepositiry.updateStock(id, stock);
+        const product = await this.productRepositiry.findById(id);
+        if (!product) {
+            throw new NotFoundException("Product not found");
+        }
+
+        return this.productRepositiry.updateStock(id, product.stock - stock);
+    }
+
+    async getStockInfo() {
+        return this.productRepositiry.getStockInfo();
     }
 }
