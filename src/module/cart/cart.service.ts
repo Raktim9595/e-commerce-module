@@ -1,13 +1,13 @@
 import { BadRequestException, Injectable, NotFoundException } from "@nestjs/common";
-import { cartRepository } from "./cart.repository";
+import { CartRepository } from "./cart.repository";
 import { CreateCartDto } from "./dto";
 import { ProductService } from "../product/product.service";
 import { Types } from "mongoose";
 
 @Injectable()
-export class cartService {
+export class CartService {
     constructor(
-        private readonly cartRepository: cartRepository,
+        private readonly cartRepository: CartRepository,
         private readonly productService: ProductService,
     ) { }
 

@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Param, Post } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
-import { cartService } from "./cart.service";
+import { CartService } from "./cart.service";
 import { CreateCartDto } from "./dto";
 import { ParseObjectIdPipe } from "@nestjs/mongoose";
 
@@ -8,7 +8,7 @@ import { ParseObjectIdPipe } from "@nestjs/mongoose";
 @ApiTags('cart')
 export class CartController {
     constructor(
-        private readonly cartService: cartService
+        private readonly cartService: CartService
     ) { }
 
     @Post()

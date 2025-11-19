@@ -4,7 +4,7 @@ import { Cart, CartItem } from "./model";
 import { Model, Types } from "mongoose";
 
 @Injectable()
-export class cartRepository {
+export class CartRepository {
     constructor(
         @InjectModel(Cart.name) private readonly cartModel: Model<Cart>
     ) { }

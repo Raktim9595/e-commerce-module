@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable, NotFoundException } from "@nestjs/common";
 import { OrderRepository } from "./order.repository";
-import { cartService } from "../cart/cart.service";
+import { CartService } from "../cart/cart.service";
 import { Order, OrderItem, OrderStatus, PaymentProvider, PaymentStatus } from "./model";
 import { Product } from "../product/model";
 import { ProductService } from "../product/product.service";
@@ -14,7 +14,7 @@ import { InjectModel } from "@nestjs/mongoose";
 export class orderService {
     constructor(
         private readonly orderRepository: OrderRepository,
-        private readonly cartService: cartService,
+        private readonly cartService: CartService,
         private readonly productService: ProductService,
         private readonly stripeService: StripeService,
         @InjectModel(Order.name) private readonly orderModel: Model<Order>

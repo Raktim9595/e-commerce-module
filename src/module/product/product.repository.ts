@@ -4,7 +4,7 @@ import { InjectModel } from "@nestjs/mongoose";
 import { Product } from "./model";
 
 @Injectable()
-export class productRepository {
+export class ProductRepository {
     constructor(
         @InjectModel(Product.name)
         private readonly productModel: Model<Product>) { }

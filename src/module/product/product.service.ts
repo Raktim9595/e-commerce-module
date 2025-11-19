@@ -1,12 +1,12 @@
 import { Injectable, NotFoundException } from "@nestjs/common";
-import { productRepository } from "./product.repository";
+import { ProductRepository } from "./product.repository";
 import { plainToInstance } from "class-transformer";
 import { ProductResponseDto } from "./dto";
 
 @Injectable()
 export class ProductService {
     constructor(
-        private readonly productRepositiry: productRepository
+        private readonly productRepositiry: ProductRepository
     ) { }
 
     async findAll() {
