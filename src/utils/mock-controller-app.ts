@@ -5,7 +5,10 @@ export const mockControllerApp = async ({
     providers
 }: {
     controller: any,
-    providers: any
+    providers: {
+        provide: any,
+        useValue: any
+    }[]
 }) => {
     const moduleRef = await Test.createTestingModule({
         controllers: controller,
@@ -13,7 +16,5 @@ export const mockControllerApp = async ({
     })
         .compile();
 
-    const app = moduleRef.createNestApplication();
-    await app.init();
-    return app
+    return moduleRef.createNestApplication();
 }

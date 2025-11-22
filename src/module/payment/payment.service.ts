@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable } from "@nestjs/common";
 import { StripeService } from "../stripe";
-import { Order, orderService, OrderStatus, PaymentStatus } from "../order";
+import { Order, OrderService, OrderStatus, PaymentStatus } from "../order";
 import { ConfigService } from "@nestjs/config";
 import Stripe from "stripe";
 import { InjectModel } from "@nestjs/mongoose";
@@ -11,7 +11,7 @@ import { ProductService } from "../product/product.service";
 export class PaymentService {
     constructor(
         private readonly stripeService: StripeService,
-        private readonly orderService: orderService,
+        private readonly orderService: OrderService,
         private readonly configService: ConfigService,
         private readonly productService: ProductService
     ) { }

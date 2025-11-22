@@ -3,19 +3,17 @@ import { OrderRepository } from "./order.repository";
 import { CartService } from "../cart/cart.service";
 import { Order, OrderItem, OrderStatus, PaymentProvider, PaymentStatus } from "./model";
 import { Product } from "../product/model";
-import { ProductService } from "../product/product.service";
 import { CreateOrderDto, OrderConfirmationDto } from "./dto";
-import { Model, UpdateWriteOpResult } from "mongoose";
-import { Cart, CartItem } from "../cart/model";
+import { Model } from "mongoose";
+import { Cart } from "../cart/model";
 import { StripeService } from "../stripe";
 import { InjectModel } from "@nestjs/mongoose";
 
 @Injectable()
-export class orderService {
+export class OrderService {
     constructor(
         private readonly orderRepository: OrderRepository,
         private readonly cartService: CartService,
-        private readonly productService: ProductService,
         private readonly stripeService: StripeService,
         @InjectModel(Order.name) private readonly orderModel: Model<Order>
     ) { }

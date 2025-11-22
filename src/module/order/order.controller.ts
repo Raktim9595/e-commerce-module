@@ -1,6 +1,6 @@
-import { Body, Controller, Get, Param, Post } from "@nestjs/common";
+import { Body, Controller, Get, Param, Post, Put } from "@nestjs/common";
 import { ApiTags } from "@nestjs/swagger";
-import { orderService } from "./order.service";
+import { OrderService } from "./order.service";
 import { CreateOrderDto, OrderConfirmationDto } from "./dto";
 import { ParseObjectIdPipe } from "@nestjs/mongoose";
 
@@ -8,7 +8,7 @@ import { ParseObjectIdPipe } from "@nestjs/mongoose";
 @ApiTags("order")
 export class OrderController {
     constructor(
-        private readonly orderService: orderService
+        private readonly orderService: OrderService
     ) { }
 
 
@@ -27,7 +27,7 @@ export class OrderController {
         return this.orderService.placeOrder(orderDto);
     }
 
-    @Post("/:id/checkout")
+    @Put("/:id/checkout")
     async confirmOrder(@Param('id', ParseObjectIdPipe) id: string, @Body() orderDto: OrderConfirmationDto) {
         return this.orderService.confirmOrder(id, orderDto)
     }

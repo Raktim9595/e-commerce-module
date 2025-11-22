@@ -2,7 +2,7 @@ import { Module } from "@nestjs/common";
 import { MongooseModule } from "@nestjs/mongoose";
 import { Order, OrderSchema } from "./model";
 import { OrderRepository } from "./order.repository";
-import { orderService } from "./order.service";
+import { OrderService } from "./order.service";
 import { OrderController } from "./order.controller";
 import { CartModule } from "../cart";
 import { ProductModule } from "../product";
@@ -16,8 +16,8 @@ import { StripeModule } from "../stripe";
         ProductModule,
         StripeModule,
     ],
-    providers: [OrderRepository, orderService],
+    providers: [OrderRepository, OrderService],
     controllers: [OrderController],
-    exports: [orderService, OrderRepository]
+    exports: [OrderService, OrderRepository]
 })
 export class OrderModule { }
